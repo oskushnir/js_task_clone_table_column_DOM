@@ -1,0 +1,2 @@
+var e=document.querySelector("table"),r=e.querySelector("thead"),t=e.querySelector("tbody"),l=e.querySelector("tfoot"),o=r.querySelectorAll("th"),c=o[1].cloneNode(!0);r.querySelector("tr").insertBefore(c,o[o.length-1]),t.querySelectorAll("tr").forEach(function(e){var r=e.querySelectorAll("td"),t=r[1].cloneNode(!0);e.insertBefore(t,r[r.length-1])});var n=l.querySelectorAll("th"),u=n[1].cloneNode(!0);l.querySelector("tr").insertBefore(u,n[n.length-1]);
+//# sourceMappingURL=index.a47caf21.js.map
